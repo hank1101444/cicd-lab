@@ -1,5 +1,9 @@
 import Fastify, { FastifyServerOptions } from 'fastify';
 
+// git status
+// git add .
+// git commit -m ""
+// git push origin feature/ci-observe
 export function buildApp(options: FastifyServerOptions = {}) {
   const app = Fastify({
     logger: options.logger ?? true,
